@@ -7,9 +7,9 @@ INSTALACION
 
 sudo su
 
-cd /usr/share/veil/setup/
-
 git clone https://github.com/Odyssey2247/veil4blackarch.git
+
+cd veil4blackarch
 
 chmod +x setup-blackarch.sh
 
