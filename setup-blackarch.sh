@@ -114,7 +114,7 @@ else
 else
     # mod for blackarch-----------------------------------------------------------------------------------------------
         echo -e '\n\n [*] Installing 32bit support for wine on x86_64 System'
-    sudo pacman -S gcc-multilib gcc-libs-multilib libtool-multilib lib32-glibc"
+    sudo pacman -S gcc-multilib gcc-libs-multilib libtool-multilib lib32-glibc
     tmp="$?"
         [ "${tmp}" -ne "0" ] && echo -e " [ERROR] Failed To Install Wine... Exit Code: ${tmp}.\n" && exit 1
     fi
