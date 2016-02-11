@@ -1,4 +1,4 @@
- veil4blackarch
+veil4blackarch
 install veil script for blackarch
 este escript permite la instalacion de "veil-framework" en blackarch
 el script es una modificacion del script original "setup.sh" que biene en Veil-Framework
@@ -13,4 +13,7 @@ cd veil4blackarch
 
 chmod +x setup-blackarch.sh
 
+mv setup-blackarch.sh /usr/share/veil/setup
+
+cd /usr/share/veil/setup
 ./setup-blackarch.sh
